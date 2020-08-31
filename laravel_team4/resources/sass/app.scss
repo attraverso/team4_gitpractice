@@ -1,1 +1,135 @@
-//
+@import "~bootstrap/scss/bootstrap";
+.sponsor-wrapper{
+    height: 100vh;
+    width: 100%;
+    margin-top: 90px;
+}
+.sponsor-title{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+
+}
+.sponsor-title h1{
+    color:#22B4CE;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.sponsor-title hr{
+    border: 1px solid #22B4CE;
+}
+.sponsor-price{
+    background-color: white;
+    height: 250px;
+    width: 100%;
+}
+.sponsor-price p{
+    padding-right: 33px;
+    padding-top: 10px;
+    color: #22B4CE;
+    font-weight: bold;
+}
+.price-one, .price-second, .price-third{
+    margin-top: 16px;
+}
+.price-one button{
+    background-color: #22B4CE;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 19px;
+    padding-right: 18px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.price-second button{
+    padding-left: 20px;
+}
+.price-second button, .price-third button{
+    color: #22B4CE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 14px;
+    border: 1px solid #22B4CE;
+    cursor: pointer;
+    font-weight: bold;
+}
+.price-third button{
+    padding-left: 10px;
+}
+.information-payments{
+    background-color: white;
+    height: 250px;
+    width: 100%;
+}
+.information-payments p{
+    padding-right: 37px;
+    padding-top: 10px;
+    color: #22B4CE;
+    font-weight: bold;
+}
+.number-cc{
+    width: 311px;
+    display: inline-block;
+    color: #C9C9C9;
+}
+.date-and-cvc{
+    display: flex;
+    justify-content: center;
+}
+#number-cc{
+    border: 1px solid #22B4CE;
+}
+#number-cc::placeholder {
+    color: rgba(0,0,0,0.3);
+}
+#date{
+    width: 235px;
+    border: 1px solid #22B4CE;
+}
+
+#date::placeholder {
+    color: rgba(0,0,0,0.3);
+}
+
+#cvc{
+    margin-left: 20px;
+    width: 58px;
+    border: 1px solid #22B4CE;
+}
+#cvc::placeholder {
+    color: rgba(0,0,0,0.2);
+}
+.btn-payments{
+    width: 313px;
+    background-color: #22B4CE;
+    border:none;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.btn-payments:hover{
+    background-color: #22B4CE;
+}
+/* @media screen and (max-width: 477px) {
+    .sponsor-price{
+        margin-bottom: 12px;
+        margin-top: -76px;
+    }
+    .price-one button, .price-second button, .price-third button {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .information-payments p{
+        padding-top: 50px;
+    }
+    .number-cc{
+    }
+} */
+@media screen and (max-width: 477px){
+    .sponsor-price{
+        margin-top: -76px;
+    }
+}
